@@ -14,7 +14,6 @@
 #ifndef DEPTHFIRSTSEARCH_L79_EXIST_H
 #define DEPTHFIRSTSEARCH_L79_EXIST_H
 #include "util.h"
-
 class L79_exist : public LeetcodeDepthFirstSearch{
 private:
     bool exist(vector<vector<char>>& board, string word);
