@@ -16,6 +16,8 @@
 #include <memory>
 #include "L79_exist/L79_exist.h"
 #include "L94_inorderTraversal/L94_inorderTraversal.h"
+#include "L98_isValidBST/L98_isValidBST.h"
+#include "L99_recoverTree/L99_recoverTree.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +26,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L94") {
             std::shared_ptr<L94_inorderTraversal> tmp= std::make_shared<L94_inorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L98") {
+            std::shared_ptr<L98_isValidBST> tmp= std::make_shared<L98_isValidBST>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L99") {
+            std::shared_ptr<L99_recoverTree> tmp= std::make_shared<L99_recoverTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }
