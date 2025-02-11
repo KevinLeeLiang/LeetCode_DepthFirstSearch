@@ -10,3 +10,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L98_isValidBST](L98_isValidBST)
 
 [99. 恢复二叉搜索树](https://leetcode.cn/problems/recover-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L99_recoverTree](L99_recoverTree)
+
+[100. 相同的树](https://leetcode.cn/problems/same-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L100_isSameTree](L100_isSameTree)
+
+[101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L101_isSymmetric](L101_isSymmetric)

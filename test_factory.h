@@ -18,6 +18,8 @@
 #include "L94_inorderTraversal/L94_inorderTraversal.h"
 #include "L98_isValidBST/L98_isValidBST.h"
 #include "L99_recoverTree/L99_recoverTree.h"
+#include "L100_isSameTree/L100_isSameTree.h"
+#include "L101_isSymmetric/L101_isSymmetric.h"
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -33,6 +35,14 @@ private:
         } else if (title == "L99") {
             std::shared_ptr<L99_recoverTree> tmp= std::make_shared<L99_recoverTree>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L100") {
+            std::shared_ptr<L100_isSameTree> tmp= std::make_shared<L100_isSameTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L101") {
+            std::shared_ptr<L101_isSymmetric> tmp= std::make_shared<L101_isSymmetric>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
