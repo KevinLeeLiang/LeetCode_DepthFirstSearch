@@ -20,6 +20,9 @@
 #include "L99_recoverTree/L99_recoverTree.h"
 #include "L100_isSameTree/L100_isSameTree.h"
 #include "L101_isSymmetric/L101_isSymmetric.h"
+#include "L104_maxDepth/L104_maxDepth.h"
+#include "L110_isBalanced/L110_isBalanced.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -40,6 +43,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L101") {
             std::shared_ptr<L101_isSymmetric> tmp= std::make_shared<L101_isSymmetric>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L104") {
+            std::shared_ptr<L104_maxDepth> tmp= std::make_shared<L104_maxDepth>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L110") {
+            std::shared_ptr<L110_isBalanced> tmp= std::make_shared<L110_isBalanced>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
             cout << "no solution" << endl;

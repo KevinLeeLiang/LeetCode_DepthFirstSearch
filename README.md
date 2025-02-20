@@ -14,3 +14,8 @@ LeetCode深度优先搜索算法题的解题仓库
 [100. 相同的树](https://leetcode.cn/problems/same-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L100_isSameTree](L100_isSameTree)
 
 [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L101_isSymmetric](L101_isSymmetric)
+
+[104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L104_maxDepth](L104_maxDepth)
+
+[110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L110_isBalanced](L110_isBalanced)
+
