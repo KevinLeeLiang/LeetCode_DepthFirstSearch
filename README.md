@@ -19,3 +19,7 @@ LeetCode深度优先搜索算法题的解题仓库
 
 [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L110_isBalanced](L110_isBalanced)
 
+[111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L111_minDepth](L111_minDepth)
+
+[112. 路径总和](https://leetcode.cn/problems/path-sum/description/?envType=problem-list-v2&envId=depth-first-search) : [L112_hasPathSum](L112_hasPathSum)
+
