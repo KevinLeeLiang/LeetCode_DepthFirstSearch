@@ -24,6 +24,9 @@
 #include "L110_isBalanced/L110_isBalanced.h"
 #include "L111_minDepth/L111_minDepth.h"
 #include "L112_hasPathSum/L112_hasPathSum.h"
+#include "L113_pathSum/L113_pathSum.h"
+#include "L114_flatten/L114_flatten.h"
+
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -57,8 +60,14 @@ private:
         } else if (title == "L112") {
             std::shared_ptr<L112_hasPathSum> tmp= std::make_shared<L112_hasPathSum>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L113") {
+            std::shared_ptr<L113_pathSum> tmp= std::make_shared<L113_pathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L114") {
+            std::shared_ptr<L114_flatten> tmp= std::make_shared<L114_flatten>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
-            cout << "no such title" << endl;
+            cout << "no solution" << endl;
         }
     }
 public:
