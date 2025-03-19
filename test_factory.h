@@ -29,6 +29,7 @@
 #include "L116_connect/L116_connect.h"
 #include "L117_connect/L117_connect.h"
 #include "L124_maxPathSum/L124_maxPathSum.h"
+#include "L129_sumNumbers/L129_sumNumbers.h"
 
 class test_factory {
 private:
@@ -77,6 +78,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L124") {
             std::shared_ptr<L124_maxPathSum> tmp= std::make_shared<L124_maxPathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L129") {
+            std::shared_ptr<L129_sumNumbers> tmp= std::make_shared<L129_sumNumbers>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
             cout << "no solution" << endl;

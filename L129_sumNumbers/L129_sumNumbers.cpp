@@ -39,4 +39,7 @@ void L129_sumNumbers::test() {
     nums = {4, 9, 0, 5, 1};
     root = create_treenode(nums, true);
     cout << sumNumbers(root) << endl;
+    nums = {1, 0};
+    root = create_treenode(nums, true);
+    cout << sumNumbers(root) << endl;
 }
