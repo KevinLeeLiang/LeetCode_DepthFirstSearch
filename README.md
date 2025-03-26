@@ -34,3 +34,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [124. 二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/?envType=problem-list-v2&envId=depth-first-search) : [L124_maxPathSum](L124_maxPathSum)
 
 [129. 求根节点到叶节点数字之和](https://leetcode.cn/problems/sum-root-to-leaf-numbers/description/?envType=problem-list-v2&envId=depth-first-search) : [L129_sumNumbers](L129_sumNumbers)
+
+[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/description/?envType=problem-list-v2&envId=depth-first-search) : [L130_solve](L130_solve)
+
+[133. 克隆图](https://leetcode.cn/problems/clone-graph/description/?envType=problem-list-v2&envId=depth-first-search) : [L133_cloneGraph](L133_cloneGraph)

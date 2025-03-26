@@ -30,6 +30,8 @@
 #include "L117_connect/L117_connect.h"
 #include "L124_maxPathSum/L124_maxPathSum.h"
 #include "L129_sumNumbers/L129_sumNumbers.h"
+#include "L130_solve/L130_solve.h"
+//#include "L133_cloneGraph/L133_cloneGraph.h"
 
 class test_factory {
 private:
@@ -82,6 +84,12 @@ private:
         } else if (title == "L129") {
             std::shared_ptr<L129_sumNumbers> tmp= std::make_shared<L129_sumNumbers>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L130") {
+            std::shared_ptr<L130_solve> tmp= std::make_shared<L130_solve>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+//        } else if (title == "L133") {
+//            std::shared_ptr<L133_cloneGraph> tmp= std::make_shared<L133_cloneGraph>();
+//            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
             cout << "no solution" << endl;
         }
