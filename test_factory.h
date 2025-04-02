@@ -32,6 +32,8 @@
 #include "L129_sumNumbers/L129_sumNumbers.h"
 #include "L130_solve/L130_solve.h"
 //#include "L133_cloneGraph/L133_cloneGraph.h"
+#include "L144_preorderTraversal/L144_preorderTraversal.h"
+#include "L145_postorderTraversal/L145_postorderTraversal.h"
 
 class test_factory {
 private:
@@ -90,6 +92,12 @@ private:
 //        } else if (title == "L133") {
 //            std::shared_ptr<L133_cloneGraph> tmp= std::make_shared<L133_cloneGraph>();
 //            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L144") {
+            std::shared_ptr<L144_preorderTraversal> tmp= std::make_shared<L144_preorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L145") {
+            std::shared_ptr<L145_postorderTraversal> tmp= std::make_shared<L145_postorderTraversal>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
             cout << "no solution" << endl;
         }
