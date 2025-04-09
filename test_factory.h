@@ -34,6 +34,8 @@
 //#include "L133_cloneGraph/L133_cloneGraph.h"
 #include "L144_preorderTraversal/L144_preorderTraversal.h"
 #include "L145_postorderTraversal/L145_postorderTraversal.h"
+#include "L199_rightSideView/L199_rightSideView.h"
+#include "L200_numIslands/L200_numIslands.h"
 
 class test_factory {
 private:
@@ -98,8 +100,15 @@ private:
         } else if (title == "L145") {
             std::shared_ptr<L145_postorderTraversal> tmp= std::make_shared<L145_postorderTraversal>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L199") {
+            std::shared_ptr<L199_rightSideView> tmp= std::make_shared<L199_rightSideView>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L200") {
+            std::shared_ptr<L200_numIslands> tmp= std::make_shared<L200_numIslands>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else {
-            cout << "no solution" << endl;
+            cout << "no such title" << endl;
+            return;
         }
     }
 public:

@@ -38,3 +38,11 @@ LeetCode深度优先搜索算法题的解题仓库
 [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/description/?envType=problem-list-v2&envId=depth-first-search) : [L130_solve](L130_solve)
 
 [133. 克隆图](https://leetcode.cn/problems/clone-graph/description/?envType=problem-list-v2&envId=depth-first-search) : [L133_cloneGraph](L133_cloneGraph)
+
+[144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/?envType=problem-list-v2&envId=depth-first-search) : [L144_preorderTraversal](L144_preorderTraversal)
+
+[145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/?envType=problem-list-v2&envId=depth-first-search) : [L145_postorderTraversal](L145_postorderTraversal)
+
+[199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=problem-list-v2&envId=depth-first-search) : [L199_rightSideView](L199_rightSideView)
+
+[200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/description/?envType=problem-list-v2&envId=depth-first-search) : [L200_numIslands](L200_numIslands)
