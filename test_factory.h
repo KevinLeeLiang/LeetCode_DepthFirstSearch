@@ -38,6 +38,8 @@
 #include "L200_numIslands/L200_numIslands.h"
 #include "L207_canFinish/L207_canFinish.h"
 #include "L210_findOrder/L210_findOrder.h"
+#include "L211_WordDictionary/L211_WordDictionary.h"
+#include "L226_invertTree/L226_invertTree.h"
 
 class test_factory {
 private:
@@ -114,8 +116,12 @@ private:
         } else if (title == "L210") {
             std::shared_ptr<L210_findOrder> tmp= std::make_shared<L210_findOrder>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L211") {
+            std::shared_ptr<L211_WordDictionary> tmp= std::make_shared<L211_WordDictionary>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L226") {
+            std::shared_ptr<L226_invertTree> tmp= std::make_shared<L226_invertTree>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }
 public:

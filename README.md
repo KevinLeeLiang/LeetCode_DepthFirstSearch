@@ -50,3 +50,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [207. 课程表](https://leetcode.cn/problems/course-schedule/description/?envType=problem-list-v2&envId=depth-first-search) : [L207_canFinish](L207_canFinish)
 
 [210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/?envType=problem-list-v2&envId=depth-first-search) : [L210_findOrder](L210_findOrder)
+
+[211. 添加与搜索单词 - 数据结构设计](https://leetcode.cn/problems/design-add-and-search-words-data-structure/description/?envType=problem-list-v2&envId=depth-first-search) : [L211_WordDictionary](L211_WordDictionary)
+
+[226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L226_invertTree](L226_invertTree)
