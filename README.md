@@ -54,3 +54,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [211. 添加与搜索单词 - 数据结构设计](https://leetcode.cn/problems/design-add-and-search-words-data-structure/description/?envType=problem-list-v2&envId=depth-first-search) : [L211_WordDictionary](L211_WordDictionary)
 
 [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L226_invertTree](L226_invertTree)
+
+[230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=depth-first-search) : [L230_kthSmallest](L230_kthSmallest)
+
+[235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L235_lowestCommonAncestor](L235_lowestCommonAncestor)
