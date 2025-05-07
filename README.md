@@ -58,3 +58,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [230. 二叉搜索树中第K小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/?envType=problem-list-v2&envId=depth-first-search) : [L230_kthSmallest](L230_kthSmallest)
 
 [235. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L235_lowestCommonAncestor](L235_lowestCommonAncestor)
+
+[236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L236_lowestCommonAncestor](L236_lowestCommonAncestor)
+
+[257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/description/?envType=problem-list-v2&envId=depth-first-search) : [L257_binaryTreePaths](L257_binaryTreePaths)
