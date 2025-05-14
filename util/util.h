@@ -31,6 +31,7 @@
 #include <climits>
 #include <cstdint>
 #include<cstdarg>
+#include <list>
 using namespace std;
 class LeetcodeDepthFirstSearch{
 public:

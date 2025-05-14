@@ -62,3 +62,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L236_lowestCommonAncestor](L236_lowestCommonAncestor)
 
 [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/description/?envType=problem-list-v2&envId=depth-first-search) : [L257_binaryTreePaths](L257_binaryTreePaths)
+
+[297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/?envType=problem) : [L297_serialize](L297_serialize)
+
+[310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=depth-first-search) : [L310_findMinHeightTrees](L310_findMinHeightTrees)
