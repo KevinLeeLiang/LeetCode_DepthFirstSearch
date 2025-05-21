@@ -46,6 +46,8 @@
 #include "L257_binaryTreePaths/L257_binaryTreePaths.h"
 #include "L297_serializeAndDeserialize/L297_serializeAndDeserialize.h"
 #include "L310_findMinHeightTrees/L310_findMinHeightTrees.h"
+#include "L329_longestIncreasingPath/L329_longestIncreasingPath.h"
+#include "L332_findItinerary/L332_findItinerary.h"
 
 class test_factory {
 private:
@@ -145,6 +147,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L310") {
             std::shared_ptr<L310_findMinHeightTrees> tmp= std::make_shared<L310_findMinHeightTrees>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L329") {
+            std::shared_ptr<L329_longestIncreasingPath> tmp= std::make_shared<L329_longestIncreasingPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L332") {
+            std::shared_ptr<L332_findItinerary> tmp= std::make_shared<L332_findItinerary>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }

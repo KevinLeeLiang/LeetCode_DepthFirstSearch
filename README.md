@@ -66,3 +66,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/?envType=problem) : [L297_serialize](L297_serialize)
 
 [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/description/?envType=problem-list-v2&envId=depth-first-search) : [L310_findMinHeightTrees](L310_findMinHeightTrees)
+
+[329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/description/?envType=problem-list-v2&envId=depth-first-search) : [L329_longestIncreasingPath](L329_longestIncreasingPath)
+
+[332. 重新安排行程](https://leetcode.cn/problems/reconstruct-itinerary/description/?envType=problem-list-v2&envId=depth-first-search) : [L332_findItinerary](L332_findItinerary)
