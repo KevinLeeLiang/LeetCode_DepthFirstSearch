@@ -48,6 +48,8 @@
 #include "L310_findMinHeightTrees/L310_findMinHeightTrees.h"
 #include "L329_longestIncreasingPath/L329_longestIncreasingPath.h"
 #include "L332_findItinerary/L332_findItinerary.h"
+#include "L337_rob/L337_rob.h"
+#include "L365_canMeasureWater/L365_canMeasureWater.h"
 
 class test_factory {
 private:
@@ -153,6 +155,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L332") {
             std::shared_ptr<L332_findItinerary> tmp= std::make_shared<L332_findItinerary>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L337") {
+            std::shared_ptr<L337_rob> tmp= std::make_shared<L337_rob>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L365") {
+            std::shared_ptr<L365_canMeasureWater> tmp= std::make_shared<L365_canMeasureWater>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }

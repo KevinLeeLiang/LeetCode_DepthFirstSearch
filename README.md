@@ -70,3 +70,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/description/?envType=problem-list-v2&envId=depth-first-search) : [L329_longestIncreasingPath](L329_longestIncreasingPath)
 
 [332. 重新安排行程](https://leetcode.cn/problems/reconstruct-itinerary/description/?envType=problem-list-v2&envId=depth-first-search) : [L332_findItinerary](L332_findItinerary)
+
+[337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/description/?envType=problem-list-v2&envId=depth-first-search) : [L337_rob](L337_rob)
+
+[365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/description/?envType=problem-list-v2&envId=depth-first-search) : [L365_canMeasureWater](L365_canMeasureWater)
