@@ -50,6 +50,8 @@
 #include "L332_findItinerary/L332_findItinerary.h"
 #include "L337_rob/L337_rob.h"
 #include "L365_canMeasureWater/L365_canMeasureWater.h"
+#include "L386_lexicalOrder/L386_lexicalOrder.h"
+#include "L388_lengthLongestPath/L388_lengthLongestPath.h"
 
 class test_factory {
 private:
@@ -162,7 +164,14 @@ private:
         } else if (title == "L365") {
             std::shared_ptr<L365_canMeasureWater> tmp= std::make_shared<L365_canMeasureWater>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L386") {
+            std::shared_ptr<L386_lexicalOrder> tmp= std::make_shared<L386_lexicalOrder>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L388") {
+            std::shared_ptr<L388_lengthLongestPath> tmp= std::make_shared<L388_lengthLongestPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
+
     }
 public:
     test_factory(string title) {

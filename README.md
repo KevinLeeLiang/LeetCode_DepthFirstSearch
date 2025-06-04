@@ -74,3 +74,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [337. 打家劫舍 III](https://leetcode.cn/problems/house-robber-iii/description/?envType=problem-list-v2&envId=depth-first-search) : [L337_rob](L337_rob)
 
 [365. 水壶问题](https://leetcode.cn/problems/water-and-jug-problem/description/?envType=problem-list-v2&envId=depth-first-search) : [L365_canMeasureWater](L365_canMeasureWater)
+
+[386. 字典序排数](https://leetcode.cn/problems/lexicographical-numbers/description/?envType=problem-list-v2&envId=depth-first-search) : [L386_lexicalOrder](L386_lexicalOrder)
+
+[388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/?envType=problem-list-v2&envId=depth-first-search) : [L388_lengthLongestPath](L388_lengthLongestPath)
