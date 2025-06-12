@@ -52,6 +52,8 @@
 #include "L365_canMeasureWater/L365_canMeasureWater.h"
 #include "L386_lexicalOrder/L386_lexicalOrder.h"
 #include "L388_lengthLongestPath/L388_lengthLongestPath.h"
+#include "L399_calcEquation/L399_calcEquation.h"
+#include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
 
 class test_factory {
 private:
@@ -169,6 +171,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L388") {
             std::shared_ptr<L388_lengthLongestPath> tmp= std::make_shared<L388_lengthLongestPath>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L399") {
+            std::shared_ptr<L399_calcEquation> tmp= std::make_shared<L399_calcEquation>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L404") {
+            std::shared_ptr<L404_sumOfLeftLeaves> tmp= std::make_shared<L404_sumOfLeftLeaves>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
 

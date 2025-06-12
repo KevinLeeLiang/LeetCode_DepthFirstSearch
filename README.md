@@ -78,3 +78,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [386. 字典序排数](https://leetcode.cn/problems/lexicographical-numbers/description/?envType=problem-list-v2&envId=depth-first-search) : [L386_lexicalOrder](L386_lexicalOrder)
 
 [388. 文件的最长绝对路径](https://leetcode.cn/problems/longest-absolute-file-path/description/?envType=problem-list-v2&envId=depth-first-search) : [L388_lengthLongestPath](L388_lengthLongestPath)
+
+[399. 除法求值](https://leetcode.cn/problems/evaluate-division/description/?envType=problem-list-v2&envId=depth-first-search) : [L399_calcEquation](L399_calcEquation)
+
+[404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=depth-first-search) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
