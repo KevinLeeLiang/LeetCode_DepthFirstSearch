@@ -82,3 +82,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [399. 除法求值](https://leetcode.cn/problems/evaluate-division/description/?envType=problem-list-v2&envId=depth-first-search) : [L399_calcEquation](L399_calcEquation)
 
 [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/description/?envType=problem-list-v2&envId=depth-first-search) : [L404_sumOfLeftLeaves](L404_sumOfLeftLeaves)
+
+[417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=problem-list-v2&envId=depth-first-search) : [L417_pacificAtlantic](L417_pacificAtlantic)
+
+[419. 棋盘上的战舰](https://leetcode.cn/problems/battleships-in-a-board/description/?envType=problem-list-v2&envId=depth-first-search) : [L419_countBattleships](L419_countBattleships)
