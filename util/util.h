@@ -30,8 +30,9 @@
 #include <ctime>
 #include <climits>
 #include <cstdint>
-#include<cstdarg>
+#include <cstdarg>
 #include <list>
+#include <functional>
 using namespace std;
 class LeetcodeDepthFirstSearch{
 public:

@@ -56,6 +56,8 @@
 #include "L404_sumOfLeftLeaves/L404_sumOfLeftLeaves.h"
 #include "L417_pacificAtlantic/L417_pacificAtlantic.h"
 #include "L419_countBattleships/L419_countBattleships.h"
+#include "L430_flatten/L430_flatten.h"
+#include "L437_pathSum/L437_pathSum.h"
 
 class test_factory {
 private:
@@ -186,8 +188,13 @@ private:
         } else if (title == "L419") {
             std::shared_ptr<L419_countBattleships> tmp= std::make_shared<L419_countBattleships>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L430") {
+            std::shared_ptr<L430_flatten> tmp= std::make_shared<L430_flatten>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L437") {
+            std::shared_ptr<L437_pathSum> tmp= std::make_shared<L437_pathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
-
     }
 public:
     test_factory(string title) {

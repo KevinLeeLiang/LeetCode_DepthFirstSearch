@@ -86,3 +86,7 @@ LeetCode深度优先搜索算法题的解题仓库
 [417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=problem-list-v2&envId=depth-first-search) : [L417_pacificAtlantic](L417_pacificAtlantic)
 
 [419. 棋盘上的战舰](https://leetcode.cn/problems/battleships-in-a-board/description/?envType=problem-list-v2&envId=depth-first-search) : [L419_countBattleships](L419_countBattleships)
+
+[430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=depth-first-search) : [L430_flatten](L430_flatten)
+
+[437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/description/?envType=problem-list-v2&envId=depth-first-search) : [L437_pathSum](L437_pathSum)
