@@ -58,6 +58,8 @@
 #include "L419_countBattleships/L419_countBattleships.h"
 #include "L430_flatten/L430_flatten.h"
 #include "L437_pathSum/L437_pathSum.h"
+#include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
+#include "L463_islandPerimeter/L463_islandPerimeter.h"
 
 class test_factory {
 private:
@@ -193,6 +195,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L437") {
             std::shared_ptr<L437_pathSum> tmp= std::make_shared<L437_pathSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L449") {
+            std::shared_ptr<L449_serializeAndDeserialize> tmp= std::make_shared<L449_serializeAndDeserialize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L463") {
+            std::shared_ptr<L463_islandPerimeter> tmp= std::make_shared<L463_islandPerimeter>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }
