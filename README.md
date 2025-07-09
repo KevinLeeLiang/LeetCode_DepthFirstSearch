@@ -90,3 +90,9 @@ LeetCode深度优先搜索算法题的解题仓库
 [430. 扁平化多级双向链表](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list/description/?envType=problem-list-v2&envId=depth-first-search) : [L430_flatten](L430_flatten)
 
 [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/description/?envType=problem-list-v2&envId=depth-first-search) : [L437_pathSum](L437_pathSum)
+
+[449. 序列化和反序列化二叉搜索树](https://leetcode.cn/problems/serialize-and-deserialize-bst/description/?envType=problem-list-v2&envId=depth-first-search) : [L449_serializeAndDeserialize](L449_serializeAndDeserialize)
+
+[463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/description/?envType=problem-list-v2&envId=depth-first-search) : [L463_islandPerimeter](L463_islandPerimeter)
+
+[488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=depth-first-search) : [L488_findMinStep](L488_findMinStep)

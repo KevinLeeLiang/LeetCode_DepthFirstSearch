@@ -60,6 +60,7 @@
 #include "L437_pathSum/L437_pathSum.h"
 #include "L449_serializeAndDeserialize/L449_serializeAndDeserialize.h"
 #include "L463_islandPerimeter/L463_islandPerimeter.h"
+#include "L488_findMinStep/L488_findMinStep.h"
 
 class test_factory {
 private:
@@ -201,6 +202,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L463") {
             std::shared_ptr<L463_islandPerimeter> tmp= std::make_shared<L463_islandPerimeter>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L488") {
+            std::shared_ptr<L488_findMinStep> tmp= std::make_shared<L488_findMinStep>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }
