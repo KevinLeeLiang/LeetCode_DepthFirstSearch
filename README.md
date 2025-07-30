@@ -98,3 +98,5 @@ LeetCode深度优先搜索算法题的解题仓库
 [488. 祖玛游戏](https://leetcode.cn/problems/zuma-game/description/?envType=problem-list-v2&envId=depth-first-search) : [L488_findMinStep](L488_findMinStep)
 
 [501. 二叉搜索树中的众数](https://leetcode.cn/problems/find-mode-in-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L501_findMode](L501_findMode)
+
+[508. 出现次数最多的子树元素和](https://leetcode.cn/problems/most-frequent-subtree-sum/description/?envType=problem-list-v2&envId=depth-first-search) : [L508_findFrequentTreeSum](L508_findFrequentTreeSum)
