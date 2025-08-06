@@ -63,6 +63,7 @@
 #include "L488_findMinStep/L488_findMinStep.h"
 #include "L501_findMode/L501_findMode.h"
 #include "L508_findFrequentTreeSum/L508_findFrequentTreeSum.h"
+#include "L513_findBottomLeftValue/L513_findBottomLeftValue.h"
 
 class test_factory {
 private:
@@ -213,6 +214,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         } else if (title == "L508") {
             std::shared_ptr<L508_findFrequentTreeSum> tmp= std::make_shared<L508_findFrequentTreeSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
+        } else if (title == "L513") {
+            std::shared_ptr<L513_findBottomLeftValue> tmp= std::make_shared<L513_findBottomLeftValue>();
             solution_ = std::dynamic_pointer_cast<LeetcodeDepthFirstSearch>(tmp);
         }
     }

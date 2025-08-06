@@ -100,3 +100,5 @@ LeetCode深度优先搜索算法题的解题仓库
 [501. 二叉搜索树中的众数](https://leetcode.cn/problems/find-mode-in-binary-search-tree/description/?envType=problem-list-v2&envId=depth-first-search) : [L501_findMode](L501_findMode)
 
 [508. 出现次数最多的子树元素和](https://leetcode.cn/problems/most-frequent-subtree-sum/description/?envType=problem-list-v2&envId=depth-first-search) : [L508_findFrequentTreeSum](L508_findFrequentTreeSum)
+
+[513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/description/?envType=problem-list-v2&envId=depth-first-search) : [L513_findBottomLeftValue](L513_findBottomLeftValue)
